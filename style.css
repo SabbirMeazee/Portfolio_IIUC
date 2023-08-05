@@ -375,3 +375,44 @@ a:hover {
     font-size: 15px;
  
 }
+
+
+
+/* =========== Responsive Media ======== */
+
+
+/* ===for banner===== */
+@media (max-width: 768px) {
+    #banner h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #banner h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    #banner img{
+        width: 250px;
+    }
+
+    #banner .banner-img img {
+        height: 200px;
+        width: 250px;
+    }
+}
+/* ======for contact========= */
+
+@media (max-width: 546px) {
+.contact input {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+/* @media (max-width: 768px) {
+.contact input {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+} */
