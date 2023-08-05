@@ -1,4 +1,49 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+header {
+    z-index: 1;
+    padding: 15px 0;
+}
+a {
+    color: #47b2e4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #73c5eb;
+    text-decoration: none;
+}
+.nav-title{
+    text-transform: uppercase;
+    font-size: 30px ;
+    font-family: 'Open Sans', sans-serif;
+    color: orangered;
+    font-weight: 700;
+}
+.nav-title a{
+    color: orangered;
+}
+.navbar {
+    padding: 0;
+}
+
+.navbar ul {
+  
+}
+.navbar ul li{
+    padding: 10px 20px;
+} 
+.navbar ul li:hover{
+    background-color: orangered;
+    border-radius: 4px;
+    transition: .3s;
+    color: white;
+} 
+.navbar ul li a{
+    color: white;
+font-size: 20px;
+
 }
