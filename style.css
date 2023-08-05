@@ -110,3 +110,141 @@ a:hover {
     width: 40%;
     padding-left: 10%;
 }
+/* ===========Client parts=========== */
+.section-bg {
+    background-color: #f3f5fa;
+}
+
+.clients {
+    padding: 30px 0;
+    text-align: center;
+}
+.clients img{
+
+    height: 60px;
+}
+
+/* =====team part========== */
+
+.team .member {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+    height: 100%;
+}
+
+.team .member .pic {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.team .member .member-info {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #37517e;
+    padding-bottom: 10px;
+}
+
+.team .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+.section-bg {
+    background-color: white;
+}
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+   
+    padding: 20px 0;
+}
+.section-title h2{
+
+    font-weight: 700;
+}
+
+.member-info p{
+    color: rgb(41, 41, 34);
+}
+.member-info span{
+    font-weight: 500;
+
+}
+
+.team .member .social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.team .member .social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #eff2f8;
+    margin: 0 8px;
+}
+.team .member .social a i {
+    color: #37517e;
+    font-size: 22px;
+    margin: 0 2px;
+}
+.team .member .social a:hover {
+    background: orangered;
+    transition: 0.3s;
+}
+
+.team .member .social a:hover i {
+    color: blue;
+}
+/*--------------- Contact===========*/
+.contact{
+    background-color: #37517e;
+}
+.contact h2{
+    color: #eff2f8;
+}
+.contact label{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: beige ;
+}
+.contact input{
+    width: 500px;
+    margin-bottom: 20px;
+}
+.contact-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact .btn a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+}
+.contact .btn:hover {
+    color: white;
+    background-color: orangered;
+    border-radius: 4px;
+    transition: .3s;
+
+}
