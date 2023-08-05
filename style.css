@@ -14,11 +14,6 @@ a {
     text-decoration: none;
 }
 
-/* *,
-::after,
-::before {
-    box-sizing: content-box;
-} */
 
 a:hover {
     color: #73c5eb;
@@ -41,7 +36,6 @@ a:hover {
     padding: 0;
 }
 
-.navbar ul {}
 
 .navbar ul li {
     padding: 10px 20px;
@@ -105,18 +99,12 @@ a:hover {
     transition: .3s;
    
 }
-/* .banner .row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
-} */
 .banner-img{
     width: 40%;
     padding-left: 10%;
 }
-/* ===========Client parts=========== */
+/* ==========================Client parts========================== */
 .section-bg {
     background-color: #f3f5fa;
 }
@@ -130,7 +118,7 @@ a:hover {
     height: 60px;
 }
 
-/* =====team part========== */
+/* ========================team part====================== */
 
 .team .member {
     position: relative;
@@ -153,7 +141,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 .team .member h4 {
     font-weight: 700;
@@ -221,7 +208,9 @@ a:hover {
 .team .member .social a:hover i {
     color: blue;
 }
-/*--------------- Contact===========*/
+
+/*--------------==============- Contact================*/
+
 .contact{
     background-color: #37517e;
 }
